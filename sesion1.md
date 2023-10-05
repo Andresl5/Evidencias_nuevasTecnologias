@@ -3,18 +3,20 @@
 
 ## Actividad 1 
 
+### ¿Cuál es tu nivel de conocimiento de Python? (principiante, intermedio, avanzado) Explica brevemente.
 
-<!-- ¿Cuál es tu nivel de conocimiento de Python? (principiante, intermedio, avanzado) Explica brevemente.
 Considero que es principiante, pues no he tenido el más mínimo acercamiento con el lenguaje.
 
-¿Has usado Git/GitHub antes? ¿Con qué frecuencia? (nunca, una o dos veces, varias veces)
+### ¿Has usado Git/GitHub antes? ¿Con qué frecuencia? (nunca, una o dos veces, varias veces)
 
 He usado ambas herramientas varias veces, más git que github. Sin embargo, solo conozco los comandos básicos para actualizar una rama o clonar un proyecto. No se me da bien el manejo del git pull.
 
-¿Has escrito código en Python? ¿De qué tipo? (algoritmos simples, funciones, clases, librerías, proyectos completos)
+### ¿Has escrito código en Python? ¿De qué tipo? (algoritmos simples, funciones, clases, librerías, proyectos completos)
 
-No. Conforme a la respuesta dada en la primera pregunta.
-Escribe un breve ejemplo de código Python que involucre al menos dos de los siguientes conceptos: funciones, clases, librerías.
+No. 
+
+### Conforme a la respuesta dada en la primera pregunta.
+### Escribe un breve ejemplo de código Python que involucre al menos dos de los siguientes conceptos: funciones, clases, librerías.
 
 class persona:
 
@@ -25,7 +27,7 @@ class persona:
 		print (“mi nombre es”, self.nombre, “ “, self.apellido)
 
 
-Escribe los comandos de Git que conoces y una breve explicación de cada uno.
+### Escribe los comandos de Git que conoces y una breve explicación de cada uno.
 
 Git add .: para contener todos los cambios realizados desde ese directorio del repositorio.
 
@@ -36,7 +38,10 @@ Git push origin master: para guardar los cambios en la rama correspondiente
 Git clone: para clonar un repositorio
 
 Git checkout -b: para crear una rama
--->
+
+
+
+<!-- Su documentación aquí -->
 
 
 
