@@ -1,8 +1,8 @@
 <!-- No borrar o modificar -->
 [Inicio](./index.md)
 
-## Sesión 4
-#Calculadora Básica: Crea una función llamada calculadora
+## actividad 4
+# Calculadora Básica: Crea una función llamada calculadora
 # que tome tres argumentos: dos números y un operador (+, -, *, /).
 # La función debe realizar la operación indicada en los dos números y devolver el resultado.
 
@@ -34,7 +34,8 @@ def vocales(cadena):
 cant_vocales = vocales("Buenos dias compañeros, como estan")
 print(cant_vocales)  
     
-#Primo o No Primo: Escribe una función llamada es_primo que tome un número entero positivo como argumento y determine si es un número primo (es decir, solo es divisible por 1 y por sí mismo). 
+# Primo o No Primo: Escribe una función llamada es_primo que tome un número entero positivo como argumento y determine si es un número primo (es decir, solo es divisible por 1 y por sí mismo). 
+
 # La función debe devolver True si es primo y False si no lo es.
 
 def primo(numero):
@@ -49,7 +50,7 @@ def primo(numero):
             return False
     return True
 
-#Contador de Palabras: Escribe una función llamada contar_palabras que 
+# Contador de Palabras: Escribe una función llamada contar_palabras que 
 # tome una cadena como argumento y devuelva el número de palabras en esa cadena.
 # Supón que las palabras están separadas por espacios.
 

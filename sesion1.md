@@ -1,9 +1,10 @@
 <!-- No borrar o modificar -->
 [Inicio](./index.md)
 
-## Sesión 1 
+## Actividad 1 
 
-¿Cuál es tu nivel de conocimiento de Python? (principiante, intermedio, avanzado) Explica brevemente.
+
+<!-- ¿Cuál es tu nivel de conocimiento de Python? (principiante, intermedio, avanzado) Explica brevemente.
 Considero que es principiante, pues no he tenido el más mínimo acercamiento con el lenguaje.
 
 ¿Has usado Git/GitHub antes? ¿Con qué frecuencia? (nunca, una o dos veces, varias veces)
@@ -35,10 +36,7 @@ Git push origin master: para guardar los cambios en la rama correspondiente
 Git clone: para clonar un repositorio
 
 Git checkout -b: para crear una rama
-
-
-
-<!-- Su documentación aquí -->
+-->
 
 
 
