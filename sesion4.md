@@ -1,10 +1,10 @@
 <!-- No borrar o modificar -->
 [Inicio](./index.md)
 
-## actividad 4
-# Calculadora Básica: Crea una función llamada calculadora
-# que tome tres argumentos: dos números y un operador (+, -, *, /).
-# La función debe realizar la operación indicada en los dos números y devolver el resultado.
+# Actividad 4
+### Calculadora Básica: Crea una función llamada calculadora
+### que tome tres argumentos: dos números y un operador (+, -, *, /).
+### La función debe realizar la operación indicada en los dos números y devolver el resultado.
 
 def calcu(n1, n2, operador):
     if operador == '+':
@@ -21,8 +21,8 @@ def calcu(n1, n2, operador):
 resultado = calcu(5, 3, '/')
 print(resultado)
 
-# Conteo de Vocales: Crea una función llamada contar_vocales que tome una cadena 
-# como argumento y devuelva el número de vocales (a, e, i, o, u) que contiene la cadena.
+### Conteo de Vocales: Crea una función llamada contar_vocales que tome una cadena 
+### como argumento y devuelva el número de vocales (a, e, i, o, u) que contiene la cadena.
  
 def vocales(cadena):
     contador = 0
@@ -34,9 +34,9 @@ def vocales(cadena):
 cant_vocales = vocales("Buenos dias compañeros, como estan")
 print(cant_vocales)  
     
-# Primo o No Primo: Escribe una función llamada es_primo que tome un número entero positivo como argumento y determine si es un número primo (es decir, solo es divisible por 1 y por sí mismo). 
+### Primo o No Primo: Escribe una función llamada es_primo que tome un número entero positivo como argumento y determine si es un número primo (es decir, solo es divisible por 1 y por sí mismo). 
 
-# La función debe devolver True si es primo y False si no lo es.
+### La función debe devolver True si es primo y False si no lo es.
 
 def primo(numero):
     if numero < 2:
@@ -50,9 +50,9 @@ def primo(numero):
             return False
     return True
 
-# Contador de Palabras: Escribe una función llamada contar_palabras que 
-# tome una cadena como argumento y devuelva el número de palabras en esa cadena.
-# Supón que las palabras están separadas por espacios.
+### Contador de Palabras: Escribe una función llamada contar_palabras que 
+### tome una cadena como argumento y devuelva el número de palabras en esa cadena.
+### Supón que las palabras están separadas por espacios.
 
 def palabras(cadena):
     palabras = cadena.split()
@@ -61,9 +61,9 @@ def palabras(cadena):
 num_palabras = palabras("Que se dice pues")
 print(num_palabras)  
 
-# Cálculo de Potencia: Escribe una función llamada potencia que tome dos números enteros
-# como argumentos, uno como base y otro como exponente, 
-# y devuelva el resultado de elevar la base al exponente.
+### Cálculo de Potencia: Escribe una función llamada potencia que tome dos números enteros
+### como argumentos, uno como base y otro como exponente, 
+### y devuelva el resultado de elevar la base al exponente.
 
 def potencia(b, e):
     return b ** e
