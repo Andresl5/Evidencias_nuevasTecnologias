@@ -10,18 +10,22 @@ import pandas as pd
 data = pd.read_csv('natalidad.csv',delimiter = ";")
 
 ### filtro de los nacidos en el año 2021
+
 data = data[data["ANO"] == 2021]
 
 
 ### filtro de nacidos con peso igual o superior a 3500 y talla igual a 50
+
 data = data[(data['PESO_NAC'] >= 3500) & (data['TALLA_NAC'] == 50)]
 
 
 ### filtrar nombre de la clinica que contenga la palabra "PRADO"
+
 data = data[data['NOM_INST'].str.contains("PRADO", case=False)]
 
 
 ### filtro de madres menores de 18
+
 def mama_menor_de_18(EDAD_MADRE):
     return EDAD_MADRE < 18
 
@@ -29,8 +33,10 @@ data = data[mama_menor_de_18(data["EDAD_MADRE"])]
 
 
 ### filtrar a edad del padre de forma descendente
+'''
 data2 = data.sort_values(by= "EDAD_PADRE", ascending= False)
 
+'''
 
 ### mostrar las tres primeras filas
 data3 = data.head(3)
