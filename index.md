@@ -10,12 +10,10 @@ Bienvenidos a la plataforma de recolección de evidencias, donde se encontrarán
 
 ## Momento 2
 
-- [Sesión 7](./sesion7.md)
-- [Sesión 8](./sesion8.md)
+
 - [Sesión 9](./sesion9.md)
 - [Sesión 10](./sesion10.md)
-- [Sesión 11](./sesion11.md)
-- [Sesión 12](./sesion12.md)
+
 
 ## Momento 3
 
