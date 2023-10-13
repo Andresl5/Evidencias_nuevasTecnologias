@@ -58,7 +58,7 @@
 ### tuplas que ressultan de todas las combinaciones de los valores de
 ### las columnas con nombres en la lista columnas
 
-data7 = data.groupby("BARRIO_RES").groups
+    data7 = data.groupby("BARRIO_RES").groups
 
 [Registro de los nacimientos de personas residentes en el municipio de Medellín, sexo, peso,talla,tipo de parto, información de la madre](http://medata.gov.co/dataset/nacimientos)
 
