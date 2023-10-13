@@ -33,7 +33,9 @@ data = data[mama_menor_de_18(data["EDAD_MADRE"])]
 
 
 ### filtrar a edad del padre de forma descendente
+
 '''
+
 data2 = data.sort_values(by= "EDAD_PADRE", ascending= False)
 
 '''
