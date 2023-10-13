@@ -36,7 +36,7 @@ data = data[mama_menor_de_18(data["EDAD_MADRE"])]
 
 '''
 
-data2 = data.sort_values(by= "EDAD_PADRE", ascending= False)
+    data2 = data.sort_values(by= "EDAD_PADRE", ascending= False)
 
 '''
 
