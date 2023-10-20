@@ -6,6 +6,7 @@ Bienvenidos a la plataforma de recolección de evidencias, donde se encontrarán
 
 - [Sesión 1](./sesion1.md)
 - [Sesión 2](./sesion2.md)
+- [Sesión 3](./sesion3.md)
 - [Sesión 4](./sesion4.md)
 
 
